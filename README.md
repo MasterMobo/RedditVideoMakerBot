@@ -13,6 +13,17 @@ Created by Lewis Menelaws & [TMRRW](https://tmrrwinc.ca)
 
 </a>
 
+## Prerequisite
+
+-   [Docker](https://docs.docker.com/get-started/)
+
+## Running the project
+
+```bash
+docker build . -t redditvideomakerbot
+docker run -it -v ".:/app" redditvideomakerbot
+```
+
 ## Video Explainer
 
 [![lewisthumbnail](https://user-images.githubusercontent.com/6053155/173631669-1d1b14ad-c478-4010-b57d-d79592a789f2.png)
@@ -27,13 +38,13 @@ The only original thing being done is the editing and gathering of all materials
 
 ## Disclaimers 🚨
 
-- **At the moment**, this repository won't attempt to upload this content through this bot. It will give you a file that
-  you will then have to upload manually. This is for the sake of avoiding any sort of community guideline issues.
+-   **At the moment**, this repository won't attempt to upload this content through this bot. It will give you a file that
+    you will then have to upload manually. This is for the sake of avoiding any sort of community guideline issues.
 
 ## Requirements
 
-- Python 3.10
-- Playwright (this should install automatically in installation)
+-   Python 3.10
+-   Playwright (this should install automatically in installation)
 
 ## Installation 👩‍💻
 
@@ -69,15 +80,15 @@ In its current state, this bot does exactly what it needs to do. However, improv
 
 I have tried to simplify the code so anyone can read it and start contributing at any skill level. Don't be shy :) contribute!
 
-- [ ] Creating better documentation and adding a command line interface.
-- [x] Allowing the user to choose background music for their videos.
-- [x] Allowing users to choose a reddit thread instead of being randomized.
-- [x] Allowing users to choose a background that is picked instead of the Minecraft one.
-- [x] Allowing users to choose between any subreddit.
-- [x] Allowing users to change voice.
-- [x] Checks if a video has already been created
-- [x] Light and Dark modes
-- [x] NSFW post filter
+-   [ ] Creating better documentation and adding a command line interface.
+-   [x] Allowing the user to choose background music for their videos.
+-   [x] Allowing users to choose a reddit thread instead of being randomized.
+-   [x] Allowing users to choose a background that is picked instead of the Minecraft one.
+-   [x] Allowing users to choose between any subreddit.
+-   [x] Allowing users to change voice.
+-   [x] Checks if a video has already been created
+-   [x] Light and Dark modes
+-   [x] NSFW post filter
 
 Please read our [contributing guidelines](CONTRIBUTING.md) for more detailed information.
 
@@ -103,6 +114,6 @@ Aman Raza (electro199#8130) - https://github.com/electro199
 
 Cyteon (cyteon) - https://github.com/cyteon
 
-
 ## LICENSE
+
 [Roboto Fonts](https://fonts.google.com/specimen/Roboto/about) are licensed under [Apache License V2](https://www.apache.org/licenses/LICENSE-2.0)
